@@ -12,6 +12,7 @@ namespace TestConsoleApp.FilePathRetreiver.PathHandler
         {
             _stringBuilder = new StringBuilder();
         }
+
         public override void AddFilePathsToList(string[] files, string rootDir)
         {
             foreach(string file in files)
